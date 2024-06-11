@@ -23,7 +23,7 @@
    <hr>
 
    <h3>Preview</h3>
-   ![Share Content Card Component](Share-Content-Card-Component-Preview.png)
+ <img src="https://github.com/Yashi-Singh-1/Share-Content-Card-Component/blob/main/Share-Content-Card-Component-Preview.png" />
 
    <h3>Contributing</h3>
    <p>If you would like to contribute to this project, please follow these steps:</p>
