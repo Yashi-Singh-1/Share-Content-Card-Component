@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Share Content Card Component</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Share Content Box -->
+         <div class="share-content" role="region" aria-label="Share Content">
+            <!-- Paragraph -->
+            <p class="share-paragraph">Share this challenge</p>
+            <div class="share-icons">
+                <!-- Twitter Logo -->
+                <div class="share-icon">
+                    <span class="twitter" aria-label="Twitter"> <i class="fa fa-twitter"></i></span>
+                </div>
+                <!-- LinkedIn Logo -->
+                <div class="share-icon">
+                    <span class="linkedin" aria-label="LinkedIn"> <i class="fa fa-linkedin"></i></span>
+                </div>
+                <!-- Facebook Logo -->
+                <div class="share-icon" id="facebook-icon">
+                    <span class="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></span>
+                </div>
+                <!-- Instagram Logo -->
+                <div class="share-icon">
+                    <span class="instagram" aria-label="Instagram"><i class="fa fa-instagram"></i></span>
+                </div>
+                <!-- Pinterest Logo -->
+                <div class="share-icon">
+                    <span class="pinterest" aria-label="Pinterest"> <i class="fa fa-pinterest"></i></span>
+                </div>
+                <!-- Telegram Logo -->
+                <div class="share-icon">
+                    <span class="telegram" aria-label="Telegram"> <i class="fa fa-telegram"></i></span>
+                </div>
+            </div>
+            <!-- Copy Link Paragraph-->
+            <p class="copy-paragraph">or copy link</p>
+            <!-- Copy Link Input & Button -->
+            <div class="copy-link">
+                <input type="text" id="share-link" value="https://www.frontendpro.dev/challenge/WgPLB3f5dCRSIda2s77V" readonly aria-label="Share Link">               
+                <button id="copy-button" aria-label="Copy Link">Copy</button>
+              </div>
+         </div>
+         <script src="script.js"></script>
+    </body>
+</html>
