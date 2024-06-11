@@ -1,6 +1,4 @@
 <h1>Share Content Card Component</h1>
-    <h2>Challenge Title</h2>
-    <p>Share Content Card Component</p>
 
    <h2>Challenge Description</h2>
    <p>In this frontend challenge, you'll build a Share Content Card Component. This challenge is perfect for you if you've been learning CSS and JavaScript and are looking to practice what you've learned by building something new and beginner-friendly.</p>
