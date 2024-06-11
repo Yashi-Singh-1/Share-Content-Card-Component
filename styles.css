@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: #dacdc9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Share Content Styles */
+.share-content{
+    background-color: #ede9e2;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 2px #b4968d; 
+    padding: 20px;
+    width: 600px;
+    margin: 190px auto;
+}
+
+/* Share Paragraph Styles */
+.share-paragraph{
+    font-size: 1.4em;
+    font-family: 'Verdana';
+    margin-bottom: 15px;
+    margin-left: 8%;
+}
+
+/* Share Icons 1st div */
+.share-icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 24px 15px 22px;
+}
+
+/* Share Icon 2nd div */
+.share-icon{
+    width: 60px;
+    height: 50px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 90%;
+    margin: 0 10px;
+}
+
+/* Increased Size for icons */
+.twitter, .linkedin, .facebook, .instagram, .pinterest, .telegram{
+    font-size: 1.5em;
+}
+
+/* New ID for border */
+#facebook-icon {
+    box-shadow: 0 0 0 2px #1E1411; /* Facebook outer border color */
+}
+
+/* Copy link paragraph */
+.copy-paragraph{
+    display: flex;
+    font-family: 'Verdana';
+    margin-bottom: 18px;
+    margin-left: 8%;
+    margin-top: 28px;
+} 
+
+/* Copy Link Input & Button Container */
+.copy-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 8%;
+}
+
+/* Copy Link Input */
+.copy-link input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+/* Copy Link Button */
+.copy-link button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #1E1411;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.copy-link button:hover {
+    background-color: #333;
+}
